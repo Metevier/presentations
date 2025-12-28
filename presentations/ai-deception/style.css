@@ -1,0 +1,20 @@
+/* Global dark theme for all slides */
+.slidev-layout {
+  background: #0f0f23 !important;
+  color: white !important;
+}
+
+/* Ensure text is white */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div {
+  color: inherit;
+}
+
+/* Section layouts get a slightly different background */
+.slidev-layout.section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+}
